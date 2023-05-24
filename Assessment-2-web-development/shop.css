@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Akira;
+    src: url(Akira.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    width: 170px; /*Navbar size*/
+    display: block;
+    font-family: Akira;
+    text-align: center;
+}
+
+li{
+    float: left;
+    padding: 2rem;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+nav a:hover{
+    font-size: larger;
+}
+
