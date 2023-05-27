@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Akira;
+    src: url(Akira.otf);
+  }
+
+nav a {
+    text-decoration: none;
+    color: white;
+    width: 170px; /*Navbar size*/
+    display: block;
+    font-family: Akira;
+    text-align: center;
+}
+
+li{
+    float: left;
+    margin: 2rem;
+    margin-top: 3rem;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+nav a:hover{
+  color: red;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown{
+  display: block ;
+ }
+
+.dropdown{
+  width: 100%; 
+  position: absolute;
+  list-style: none;
+  display: none;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+ul{
+  list-style: none;
+  background-color: rgb(0, 0, 0);
+}
+
+ul li{
+  position: relative;
+}
+
+.drop{
+margin: 0;
+padding: 5px;
+}
+
+/*Images*/
+
+.products{
+    height: 18rem;
+    width: 18rem ;
+    margin: 20px;
+    margin-left: 25px;
+}
+
+/*footer*/
+  .main_div {
+    display: flex;
+}
+
+.left, .midl, .mid-two, .right {
+  flex: 25%;
+}
+
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-top: 2rem;
+  font-family:monospace;
+  font-size: large;
+  position:relative;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.copyright{
+  font-family: monospace;
+  text-align: center;
+  background-color: rgb(3, 3, 3);
+  padding: 2rem;
+}
+
+.logo-footer{
+  height:150px;
+  width:150px ;
+  margin-left: 55px;
+}
+
+.footer-link{
+  color: white;
+}
+
+.footer-link:hover{
+  color: rgb(255, 0, 0);
+}
+
+/*About page*/
+.about{
+  font-family: NL;
+  font-size: 20px;
+}
+
+.about-head{
+  font-size: xx-large;
+  font-family: NH;
+}
+
+.about-body{
+  margin: 2rem;
+  padding: 3rem;
+}
+
+
+@font-face {
+  font-family: NL;
+  src: url(Nexa-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: NH;
+  src: url(Nexa-Heavy.ttf);
+}
+
+/*Contact page*/
+.contact-main{
+  font-family: NL;
+  margin: 2rem;
+  padding: 3rem;
+  font-size: large;
+}
+
+.heading-contact{
+  font-family: AKira;
+  text-align: center;
+  margin-bottom: 2rem ;
+}
+
+.p-contact{
+  margin-bottom: 2rem ;
+}
+
+form{
+  font-size: xx-large;
+}
