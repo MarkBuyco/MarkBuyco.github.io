@@ -202,4 +202,20 @@ label{
   transform: translateX(230%);
 }
 
+.button_two:hover{
+  color: white;
+  background-color: black;
+}
 
+/*Submit*/
+.ty{
+  font-family: Akira;
+  text-align: center;
+  padding: 10rem;
+}
+
+/*Costumers*/
+
+.port{
+  
+}
