@@ -1,6 +1,6 @@
 body {
-    background-image: URL("Images/Opening.jpg");
-    background-size: cover; 
+  background-image: url("Images/Opening.jpg");
+  background-size: cover; 
 }
 
 /*Headings*/
