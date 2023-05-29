@@ -134,7 +134,7 @@ footer {
 
 .about-head{
   font-size: xx-large;
-  font-family: NH;
+  font-family: Akira ;
 }
 
 .about-body{
@@ -169,8 +169,37 @@ footer {
 
 .p-contact{
   margin-bottom: 2rem ;
+  font-size: larger;
 }
 
-form{
-  font-size: xx-large;
+input[type=text]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: NL;
+  font-size: larger;
 }
+
+textarea{
+  font-family: NL;
+  font-size: larger;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label{
+  font-size: larger;
+  font-family: AKira;
+}
+
+.button_two{
+  margin-top: 1rem;
+  font-family: Akira;
+  font-size: 2rem;
+  padding: 1rem;
+  transform: translateX(230%);
+}
+
+
