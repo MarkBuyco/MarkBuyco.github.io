@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Adding a favicon to add identity, all html pages has this-->
     <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.png">
+    <!--Link also to the Homepage CSS-->
     <link rel="stylesheet" href="Homepage.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,21 +12,26 @@
 </head>
 
 <body>
+    <!--This is the header part, it contains the navbar and the logo with links, all linked html has
+    this part.-->
     <header>
+        <!--A div which contains my logo-->
         <div class="Logo"><a href="index.html"><img src="Images/Logo.png" alt="MyLogo" height="120"></a>
         </div>
-
         <nav>
+            <!--Unordered list that contains the links for the navigation bar.-->
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <!--In here, the shop link will hav a dropdown menu for different types of products-->
                 <li><a href="#">Shop</a>
-                <ul class="dropdown">
-                    <li class="drop"><a href="shirt.html">Shirts</a></li>
-                    <li class="drop"><a href="shorts.html">Shorts</a></li>
-                    <li class="drop"><a href="shoes.html">Shoes</a></li>
-                    <li class="drop"><a href="socks.html">Socks</a></li>
-                    <li class="drop"> <a href="jacket.html">jacket</a></li>             
-                </ul>
+                    <!--Another unordered list for the shop items-->
+                    <ul class="dropdown">
+                        <li class="drop"><a href="shirt.html">Shirts</a></li>
+                        <li class="drop"><a href="shorts.html">Shorts</a></li>
+                        <li class="drop"><a href="shoes.html">Shoes</a></li>
+                        <li class="drop"><a href="socks.html">Socks</a></li>
+                        <li class="drop"> <a href="jacket.html">jacket</a></li>             
+                    </ul>
                 </li>
                 <li><a href="About.html">About Us</a></li>
                 <li><a href="Contact.html">Contact Us</a></li> 
@@ -34,7 +41,8 @@
     </header>
     <main>
         <br>
-        <div class="headings">
+        <!--A div containing 6 different H1, which I will used to add effects later on-->
+        <div class="headings"> 
             <h1 class="head"><span>Welcome to Kicks & Drip</span></h1>
             <h1 class="mid"><span>Welcome to Kicks & Drip</span></h1>
             <h1 class="last"><span>Welcome to Kicks & Drip</span></h1>
@@ -43,15 +51,20 @@
             <h1 class="last"><span>Welcome to Kicks & Drip</span></h1>
         </div>
 
+        <!--Button that will direct to the products.-->
         <button class="button_one"><a href="shirt.html">Shop Now</button></a>
         <br><br><br><br><br><br><br><br><br><br>
             
     </main>
     <footer>
+        <!--A footer in which you could also use to navigate.-->
+        <!--It has 3 different divs that are used to have 4 columns.-->
         <div class="main_div">
+            <!--First div contains the logo-->
             <div class="left">
                 <img src="Images/Logo.png" alt="MyLogo" class="logo-footer"></a>
             </div>
+            <!--second div that contains links inside the shop.-->
             <div class="midl">
                 <a class="footer-link" a href="shirt.html">Shirt</a>  <br>
                 <a class="footer-link" a href="shorts.html">Short</a>  <br>
@@ -59,6 +72,7 @@
                 <a class="footer-link" a href="socks.html">Socks</a>  <br>
                 <a class="footer-link" a href="jacket.html">Jacket</a> <br>
             </div>
+            <!--Third div contains the links in the navbar.-->
             <div class="mid-two">
                 <a class="footer-link" a href="index.html">Home</a> <br>
                 <a class="footer-link" a href="shirt.html">Shop</a> <br>
@@ -66,6 +80,8 @@
                 <a class="footer-link" a href="Contact.html">Contact Us</a> <br>
                 <a class="footer-link" a href="Costumer.html">Costumers</a> <br>
             </div>
+            <!--Last div which contains essential information regarding our shop. Like location, number,
+            email, and instagram site.-->
             <div class="right">
                 <a class="footer-link" a href="https://goo.gl/maps/Wc9yoKxzQHZcLu9y8?coh=178573&entry=tt">
                     Dasman, Sharjah</a> <br>
@@ -74,6 +90,7 @@
                 <a class="footer-link" a href="https://www.instagram.com/kicksndrip.ae/">@kicksndrip.ae</a> <br>
             </div>
         </div>
+        <!--Copyright-->
         <p class="copyright">Kicks & Drips &copy; 2023 </p>
     </footer>
 </body>

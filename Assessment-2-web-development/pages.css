@@ -1,8 +1,12 @@
+/*CSS for all the pages, except the homepage*/
+
+/*Using own fonts*/
 @font-face {
     font-family: Akira;
     src: url(Akira.otf);
   }
 
+/*Navbar styling, explained in Homepage.CSS*/
 nav a {
     text-decoration: none;
     color: white;
@@ -71,9 +75,10 @@ ul li{
 margin: 0;
 padding: 5px;
 }
+/*Up to here was the navbar stling*/
 
-/*Images*/
 
+/*Images, for all the product image will have this format.*/
 .products{
     height: 18rem;
     width: 18rem ;
@@ -81,7 +86,7 @@ padding: 5px;
     margin-left: 25px;
 }
 
-/*footer*/
+/*footer, explained in the Homepage.CSS*/
   .main_div {
     display: flex;
 }
@@ -126,34 +131,37 @@ footer {
   color: rgb(255, 0, 0);
 }
 
-/*About page*/
+/*About page, which has a change in font, something more chill.*/
 .about{
   font-family: NL;
   font-size: 20px;
 }
 
+/*The heading in the about.html styling*/
 .about-head{
   font-size: xx-large;
   font-family: Akira ;
 }
 
+/*The main body of the about.html page, with its margin and padding.*/
 .about-body{
   margin: 2rem;
   padding: 3rem;
 }
 
-
+/*Downloaded fonts*/
 @font-face {
   font-family: NL;
   src: url(Nexa-ExtraLight.ttf);
 }
 
+/*Downloaded fonts*/
 @font-face {
   font-family: NH;
   src: url(Nexa-Heavy.ttf);
 }
 
-/*Contact page*/
+/*Contact page styling*/
 .contact-main{
   font-family: NL;
   margin: 2rem;
@@ -161,17 +169,20 @@ footer {
   font-size: large;
 }
 
+/*Heading in contacts.html styling*/
 .heading-contact{
   font-family: AKira;
   text-align: center;
   margin-bottom: 2rem ;
 }
 
+/*Paragraph styling in contacts.html*/
 .p-contact{
   margin-bottom: 2rem ;
   font-size: larger;
 }
 
+/*Input stylling for the user inputs*/
 input[type=text]{
   padding: 12px 20px;
   margin: 8px 0;
@@ -181,6 +192,7 @@ input[type=text]{
   font-size: larger;
 }
 
+/*text area styling*/
 textarea{
   font-family: NL;
   font-size: larger;
@@ -189,11 +201,13 @@ textarea{
   box-sizing: border-box;
 }
 
+/*Label styling*/
 label{
   font-size: larger;
   font-family: AKira;
 }
 
+/*Button in contact.html*/
 .button_two{
   margin-top: 1rem;
   font-family: Akira;
@@ -202,20 +216,22 @@ label{
   transform: translateX(230%);
 }
 
+/*Hover effects for button two*/
 .button_two:hover{
   background-color: black;
   color: white;
 }
 
-/*Submit*/
+/*Submit.html styling*/
 .ty{
   font-family: Akira;
   text-align: center;
   padding: 10rem;
 }
 
-/*Costumers*/
+/*Costumers.html styling*/
 
+/*photo*/
 .port{
   width: 355px;
   height: 555px;
@@ -224,18 +240,20 @@ label{
   filter: grayscale();
 }
 
+/*photo hover*/
 .port:hover{
   filter: none;
   transition:ease;
 }
 
+/*Heading styling in costumer.html*/
 .costumer-heading{
   text-align: center;
   font-family: Akira;
   margin-top: 3rem;
 }
 
-/*Shirts*/
+/*Shirts hover image, with image id.*/
 #american:hover{
   content: url("Images/Shirts/american\ back.jpg");
 }
@@ -386,11 +404,9 @@ label{
 #union:hover{
   content: url("Images/Shirts/union\ back.jpg");
 }
+/*End of shirts*/
 
-/*Shoes*/
-
-
-/*Shorts*/
+/*Shorts hover image, with image id.*/
 #q:hover{
   content: url("Images/shorts/Black-one.jpg");
 }
@@ -422,14 +438,15 @@ label{
 #i:hover{
   content: url("Images/shorts/white-one.jpg");
 }
+/*End of Shorts*/
 
-/*Socks*/
+/*All products reduce opacity when hovered.*/
 .products:hover{
   filter: opacity(70%);
 
 }
 
-/*Jacket*/
+/*Jacket hover image, with image id.*/
 
 #a:hover{
   content: url("Images/jacket/big\ jacket\ rev.jpg");
@@ -442,20 +459,25 @@ label{
 #d:hover{
   content: url("Images/jacket/long\ back.jpg");
 }
+/*End of jackets.*/
 
+/*Order.html page styling*/
 .order-main{
   padding: 5rem;
 }
 
+/*Heading in order.html styling.*/
 .heading-order{
   font-family: Akira;
 }
 
+/*order.html paragraph*/
 .p-order{
   font-family: NL;
   font-size: larger;
 }
 
+/*Button in order.html styling*/
 .button_three{
   margin-top: 1rem;
   font-family: Akira;
@@ -463,6 +485,7 @@ label{
   padding: 1rem;
 }
 
+/*Hover effects in button 3*/
 .button_three:hover{
   background-color: black;
 }
