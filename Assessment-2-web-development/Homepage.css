@@ -139,7 +139,7 @@ button:hover{
 
 
 /*Animation for headings*/
-h1{
+h1, .button_one, nav{
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
   }
