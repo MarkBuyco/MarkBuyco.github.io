@@ -251,6 +251,7 @@ label{
   text-align: center;
   font-family: Akira;
   margin-top: 3rem;
+  animation: none;
 }
 
 /*Shirts hover image, with image id.*/
@@ -491,7 +492,7 @@ label{
 }
 
 /*Animation for different elements*/
-h1, h2, p, form, textarea, .port{
+h2, p, form, textarea, .port{
   transform: scale(0.94);
   animation: scale 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
