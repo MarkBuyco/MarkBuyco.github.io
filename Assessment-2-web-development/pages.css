@@ -490,6 +490,17 @@ label{
   background-color: black;
 }
 
+/*Animation for different elements*/
+h1, h2, p, form, textarea, .port{
+  transform: scale(0.94);
+  animation: scale 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
 
 
 
